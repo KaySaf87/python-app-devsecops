@@ -1,5 +1,7 @@
 FROM python:3.8.11-alpine3.14
 
+RUN adduser -D python
+
 WORKDIR /service/app
 
 COPY requirements.txt /service/app
@@ -17,3 +19,5 @@ HEALTHCHECK --timeout=30s --interval=1m30s --retries=5 \
   CMD curl -s --fail http://localhost:8081/health || exit 1
 
 CMD ["python3", "-u", "application/app.py"]
+
+USER python

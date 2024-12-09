@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/KaySaf87/python-app-devsecops/compare/v1.0.0...v1.0.1) (2024-12-09)
+
+
+### Bug Fixes
+
+* curl ([e72f653](https://github.com/KaySaf87/python-app-devsecops/commit/e72f653095cb92974ada8d52ab9d176898fcbda5))
+
 # 1.0.0 (2024-12-09)
 
 
